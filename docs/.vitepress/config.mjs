@@ -1,28 +1,37 @@
 import { defineConfig } from 'vitepress'
+import zh from './zh.mjs'
 
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
-  title: "Easydict",
+const en = defineConfig({
   description: "Easy to look up words or translate text",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Guide', link: '/guide/installation', activeMatch: '/guide/' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/guide/': { base: '/guide/', items: [
+          { text: 'Installation', link: 'installation' },
+          { text: 'Selected Translate', link: 'selected-translate' },
+          { text: 'OCR', link: 'ocr' },
+          { text: 'TTS', link: 'tts' },
+          { text: 'Services', link: 'services' },
+        ] },
+    },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    editLink: {
+      pattern: 'https://github.com/yangg/easydictdoc/edit/main/docs/:path',
+      text: 'Edit this page on GitHub'
+    },
   }
+})
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
+  title: "Easydict",
+  locales: {
+    root: { label: 'English', ...en },
+    zh: { label: '简体中文', ...zh }
+  },
 })

@@ -5,21 +5,18 @@ layout: home
 hero:
   name: "Easydict"
   text: "Easy to look up words or translate text"
-  tagline: My great project tagline
+  tagline:  Concise and easy-to-use translation dictionary macOS App that allows you to easily and elegantly look up words or translate text.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Guide
+      link: /guide/installation
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Select Translation
+    details: Auto select translate, automatically display the query icon after word search, and mouse hover to query.
+  - title: OCR Translation
+    details: Support system OCR screenshot translation, Silent Screenshot OCR.
+  - title: Multiple Services
+    details: Support Youdao Dictionary, DeepL, OpenAI (ChatGPT), Google, Tencent, Bing, Baidu, Niutrans, Lingocloud, Ali and Volcano Translate.
 ---
 
