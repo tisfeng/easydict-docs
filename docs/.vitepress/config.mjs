@@ -11,13 +11,27 @@ const en = defineConfig({
     ],
 
     sidebar: {
-      '/guide/': { base: '/guide/', items: [
-          { text: 'Installation', link: 'installation' },
-          { text: 'Selected Translate', link: 'selected-translate' },
-          { text: 'OCR', link: 'ocr' },
-          { text: 'TTS', link: 'tts' },
-          { text: 'Services', link: 'services' },
-        ] },
+      '/guide/': {
+        base: '/guide/',
+        items: [
+          {
+            text: 'Usage',
+            items: [
+              { text: 'Installation', link: 'installation' },
+              { text: 'Selected Translate', link: 'selected-translate' },
+              { text: 'OCR', link: 'ocr' },
+              { text: 'TTS', link: 'tts' },
+              { text: 'Services', link: 'services' },
+            ]
+          }, {
+            text: 'Features',
+            items: [
+              { text: 'FeatureA', link: 'ocr' },
+              { text: 'FeatureB', link: 'ocr' },
+            ]
+          }
+        ]
+      },
     },
 
     editLink: {
