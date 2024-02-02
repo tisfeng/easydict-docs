@@ -22,6 +22,8 @@ const en = defineConfig({
               { text: 'OCR', link: 'ocr' },
               { text: 'TTS', link: 'tts' },
               { text: 'Services', link: 'services' },
+              { text: 'How-to-use-macOS-system-dictionary', link: 'How-to-use-macOS-system-dictionary'},
+              { text: 'How-to-use-macOS-system-translation', link: 'How-to-use-macOS-system-translation'},
             ]
           }, {
             text: 'Features',
