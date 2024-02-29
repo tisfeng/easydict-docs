@@ -1,16 +1,5 @@
 The following are a list of frequently asked questions.
 
-## Table of Contents
-
-- [Why is the text empty when I select words in some applications?](#why-is-the-text-empty-when-i-select-words-in-some-applications)
-- [Why can't I use mouse hover to select words in some applications?](#why-cant-i-use-mouse-hover-to-select-words-in-some-applications)
-- [Why is there a beep when the selected word is empty (such as dragging in a blank area) in some applications?](#why-is-there-a-beep-when-the-selected-word-is-empty-such-as-dragging-in-a-blank-area-in-some-applications)
-- [Why does the edit button in the upper right corner flicker when selecting words in some applications?](#why-does-the-edit-button-in-the-upper-right-corner-flicker-when-selecting-words-in-some-applications)
-- [Why might selecting an empty word interrupt the music currently playing?](#why-might-selecting-an-empty-word-interrupt-the-music-currently-playing)
-- [Why do word selection and OCR need to enable system-related permissions?](#why-do-word-selection-and-ocr-need-to-enable-system-related-permissions)
-- [Why can't I select words on some web pages in the browser?](#why-cant-i-select-words-on-some-web-pages-in-the-browser)
-- [Why does macOS still pop up asking for permissions even though I have given Easydict the Accessibility/Screen Recording permissions?](#why-does-macos-still-pop-up-asking-for-permissions-even-though-i-have-given-easydict-the-accessibilityscreen-recording-permissions)
-
 ## Why is the text empty when I select words in some applications?
 
 Some applications on macOS do not support native Accessibility for word selection. For this situation, Easydict provides a forced word selection feature: simulate `⌘ + C` shortcut to copy text. You can enable this feature in `Settings -> General -> Force Selection`.
