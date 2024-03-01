@@ -31,6 +31,12 @@ const en = defineConfig({
               { text: 'FeatureA', link: 'ocr' },
               { text: 'FeatureB', link: 'ocr' },
             ]
+          }, {
+            text: 'FAQ',
+            items: [
+              { text: 'QuestionA', link: 'faq' },
+              { text: 'QuestionB', link: 'faq' },
+            ]
           }
         ]
       },
