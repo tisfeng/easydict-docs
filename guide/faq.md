@@ -4,8 +4,7 @@ The following are a list of frequently asked questions.
 
 Some applications on macOS do not support native Accessibility for word selection. For this situation, Easydict provides a forced word selection feature: simulate `⌘ + C` shortcut to copy text. You can enable this feature in `Settings -> General -> Force Selection`.
 
-> [!WARNING]
-> This feature is experimental and enabling it may cause the `⌘ + C` copy function to behave abnormally in some applications.
+> Warning⚠️: This feature is experimental and enabling it may cause the `⌘ + C` copy function to behave abnormally in some applications.
 
 ## Why can't I use mouse hover to select words in some applications?
 
@@ -40,8 +39,8 @@ Due to the strict permission management of the macOS platform, some features mus
 
 Easydict is open source software. If you have any concerns about privacy, you can check the code.
 
->[!NOTE]
-> The above two permissions will be automatically requested when Easydict first uses the corresponding features. If the authorization fails, you need to enable it yourself in the system settings later.
+
+> NOTE: The above two permissions will be automatically requested when Easydict first uses the corresponding features. If the authorization fails, you need to enable it yourself in the system settings later.
 
 ## Why can't I select words on some web pages in the browser?
 
