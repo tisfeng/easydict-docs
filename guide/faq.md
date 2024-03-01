@@ -52,10 +52,11 @@ Therefore, it is recommended to enable the `Allow JavaScript in Apple Events` op
 
 For Safari users, it is strongly recommended to enable this option, because Safari does not support Accessibility word selection, and AppleScript word selection experience is far superior to simulating shortcut word selection.
 
-<table>
-    <td> <img src="https://raw.githubusercontent.com/tisfeng/ImageBed/main/uPic/image-20230708115811617-1688788691.png"></td>
-    <td> <img src="https://raw.githubusercontent.com/tisfeng/ImageBed/main/uPic/image-20230708115827839-1688788707.png"></td>
-</table>
+### Safari 
+![](https://raw.githubusercontent.com/tisfeng/ImageBed/main/uPic/image-20230708115811617-1688788691.png)
+
+### Chrome 
+![](https://raw.githubusercontent.com/tisfeng/ImageBed/main/uPic/image-20230708115827839-1688788707.png)
 
 ## Why does macOS still pop up asking for permissions even though I have given Easydict the Accessibility/Screen Recording permissions?
 
