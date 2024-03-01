@@ -39,8 +39,8 @@ Due to the strict permission management of the macOS platform, some features mus
 
 Easydict is open source software. If you have any concerns about privacy, you can check the code.
 
-
-> NOTE: The above two permissions will be automatically requested when Easydict first uses the corresponding features. If the authorization fails, you need to enable it yourself in the system settings later.
+> [!NOTE]
+> The above two permissions will be automatically requested when Easydict first uses the corresponding features. If the authorization fails, you need to enable it yourself in the system settings later.
 
 ## Why can't I select words on some web pages in the browser?
 
@@ -53,8 +53,8 @@ Therefore, it is recommended to enable the `Allow JavaScript in Apple Events` op
 For Safari users, it is strongly recommended to enable this option, because Safari does not support Accessibility word selection, and AppleScript word selection experience is far superior to simulating shortcut word selection.
 
 <table>
-    <td> <img src="https://raw.githubusercontent.com/tisfeng/ImageBed/main/uPic/image-20230708115811617-1688788691.png">
-    <td> <img src="https://raw.githubusercontent.com/tisfeng/ImageBed/main/uPic/image-20230708115827839-1688788707.png">
+    <td> <img src="https://raw.githubusercontent.com/tisfeng/ImageBed/main/uPic/image-20230708115811617-1688788691.png"></td>
+    <td> <img src="https://raw.githubusercontent.com/tisfeng/ImageBed/main/uPic/image-20230708115827839-1688788707.png"></td>
 </table>
 
 ## Why does macOS still pop up asking for permissions even though I have given Easydict the Accessibility/Screen Recording permissions?
